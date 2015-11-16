@@ -1,0 +1,27 @@
+{
+  "name": "uc-login",
+  "version": "0.1.0",
+  "description": "Login to Pontifical Catholic University of Chile's services",
+  "main": "index.js",
+  "browser": "dist/uc-login.js",
+  "scripts": {
+    "browserify": "browserify index.js > dist/uc-login.js",
+    "prepublish": "npm run browserify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrpatiwi/uc-login.git"
+  },
+  "keywords": [
+    "uc",
+    "puc",
+    "login",
+    "chile"
+  ],
+  "author": "Patricio López <patricio@lopezjuri.com> (https://lopezjuri.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrpatiwi/uc-login/issues"
+  },
+  "homepage": "https://github.com/mrpatiwi/uc-login#readme"
+}
